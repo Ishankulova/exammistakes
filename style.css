@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    font-family: Roboto;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.design_box {
+    display: flex;
+    gap: 14px;
+}
+
+
+.design {
+    padding: 54px 0 90px;
+    text-align: center;
+}
+
+
+.top {
+    padding-bottom: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.top h2 {
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 58px;
+margin-bottom: 23px;
+
+}
+
+
+.top p {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.8px;
+margin-bottom: 26px;
+color: #A0A0A0;
+
+}
+
+
+a {
+color: #000;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+letter-spacing: 1.4px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+.design_item img {
+margin-bottom: 48px;
+}
+
+
+.design_item h2 {
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 23px; 
+}
+
+
+.dots_box {
+display: flex;
+gap: 14px;
+justify-content: center;
+margin-bottom: 24px;
+}
+
+
+.dots_item {
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+}
+
+
+.products {
+    padding-bottom: 40px;
+}
+    
+
+
+
+.products h2 {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    margin-bottom: 16px;
+}
+
+
+.products_box {
+    display: flex;
+    gap: 25px;
+}
+
+
+.product_item img {
+    margin-bottom: 23px;
+    
+}
+
+
+.product_item h3 {
+    color: #A0A0A0;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+letter-spacing: 0.7px;
+}
+
+
+.product_item .price {
+    color: #A0A0A0;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.7px;
+margin-bottom: 95px;
+}
+
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+margin-top: 30px;
+margin-right: 24px;
+margin-bottom: 30px;
+margin-left: 50px;
+}
+
+
+
+
+
+.promo {
+    background: url(./img/promo1.png) no-repeat center / cover;
+    height: 504px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.promo h1 {
+    font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+
+margin-bottom: 12px;
+}
+
+
+.promo p {
+    font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+margin-bottom: 28px;
+}
+
+
+.promo a {
+    color: white;
+}
+
+
+.promo2 {
+    background: url(./img/promo2.png) no-repeat center / cover;
+     height: 504px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.promo2 h2 {
+    font-size: 66px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px; 
+margin-bottom: 14px;
+}
+
+
+.promo2 p {
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+margin-bottom: 30px;
+}
+
+
+.promo2 a {
+    color: white;
+}
+
+
+.made_top {
+    text-align: center;
+}
+
+
+.made_top p {
+    color: #A0A0A0;
+   
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.8px;
+margin-top: 23px;
+margin-bottom: 23px;
+
+}
+
+
+
+.made_top h2 {
+    color: #000;
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; 
+margin-bottom: 23px;
+margin-top: 116px;
+}
+
+
+
+
+.made_item img {
+   justify-content: center;
+    height: 620px;
+    width: 1200px;
+ 
+} 
+
+
+.make_top {
+    text-align: center;
+}
+
+
+.make_top h2 {
+ font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+margin-top: 38px;
+margin-bottom: 23px;
+
+}
+
+.make_top p {
+    color: #A0A0A0;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.8px;
+margin-bottom: 79px;
+}
+
+
+.grid_container {
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    grid-template-rows: repeat(4,271px);
+
+    gap: 25px;
+  
+}
+
+
+.hope_elem {
+    text-align: center;
+}
+
+
+.hope_elem h2 {
+    color: #000;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    margin-top: 124px;
+}
+
+
+.hope_elem a {
+    margin-bottom: 44px;
+}
